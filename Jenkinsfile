@@ -6,4 +6,4 @@ node {
   stage('compile-package') {
   sh 'mvn package'
   }
-  }
+  
