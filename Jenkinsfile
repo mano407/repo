@@ -4,6 +4,6 @@ node {
     }
   }
   stage('compile-package') {
-  sh 'clean install'
+  sh 'mvn clean install'
   }
   
